@@ -23,7 +23,7 @@ namespace PalTrackerTests
         [Fact]
         public async void ReturnsCloudFoundryEnv()
         {
-            var response = await _testClient.GetAsync("/env").ConfigureAwait(false);
+            var response = await _testClient.GetAsync("env").ConfigureAwait(false);
             response.EnsureSuccessStatusCode();
 
             var expectedResponse =
