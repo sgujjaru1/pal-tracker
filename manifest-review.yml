@@ -3,7 +3,7 @@ applications:
 - name: pal-tracker-review
   path: src/PalTracker/bin/Release/netcoreapp3.1/publish/
   routes:
-  - route: msg-pal-tracker-review.apps.pikes.pal.pivotal.io
+  - route: pal-tracker-apps-review-dg.cfapps.io
   services:
   - tracker-database
   env:
